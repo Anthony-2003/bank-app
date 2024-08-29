@@ -1,11 +1,10 @@
-import React from 'react'
+import AuthFom from "@/components/AuthFom";
+import React from "react";
 
 export default function SignIn() {
   return (
-    <div>
-      <h1>
-        Sign In
-      </h1>
-    </div>
-  )
+    <section className="flex-center size-full max-sm:px-6">
+      <AuthFom type="sign-in" />
+    </section>
+  );
 }
